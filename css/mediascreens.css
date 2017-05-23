@@ -1,0 +1,75 @@
+@media (max-width: 850px) {
+header{
+  height:200px;
+  flex-direction: column;
+}
+
+header div{
+  padding-top: 20px;
+}
+  nav {
+padding-bottom: 30px;
+  }
+}
+
+
+
+@media (max-width: 590px) {
+header{
+  height:250px;
+  flex-direction: column;
+}
+
+header div{
+  padding-top: 20px;
+}
+
+header div img{
+  display: none;
+}
+
+nav {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  }
+
+}
+
+@media (max-width: 950px) {
+
+.menu-catalog-flexed{
+  flex-wrap: wrap;
+}
+
+.menu-item{
+  width: 40%;
+}
+
+#contact .email{
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#contact .insta{
+align-content: center;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+@media (max-width: 600px) {
+.menu-catalog-flexed{
+  flex-direction: column;
+  padding-top: 210px;
+}
+
+.menu-item{
+  width: 100%;
+}
+
+
+}

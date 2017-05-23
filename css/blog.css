@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  background-color: lightgrey;
+}
+
+body p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+  background-color: #000;
+  height: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Overlock SC', cursive;
+}
+
+header div{
+  display: flex;
+  align-items: center;
+}
+
+header h1{
+  font-size: 2rem;
+  color: #fff;
+}
+
+header img{
+  margin-left: 24px;
+  margin-right: 30px;
+  width:70px;
+}
+nav{
+  padding-right: 24px;
+  align-items: center;
+  display: flex;
+}
+
+nav span{
+  padding:0 16px;
+}
+
+nav span:hover{
+  color: yellow;
+  opacity: .5;
+}
+
+nav span a {
+text-decoration: none;
+color: #fff;
+  font-family: 'Overpass Mono', monospace;
+}
+
+h1 span{
+  opacity: .5;
+  color:yellow;
+}
+
+.landing-page{
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 64px;
+  display: flex;
+  align-items:center;
+  background-image: url("../images/seed.jpg");
+  background-size: cover;
+  justify-content: center;
+  height: 700px;
+}
+
+.landing-content{
+  border-radius: 20px;
+  padding: 25px;
+}
+
+#menu-catalog{
+    display:flex;
+    width:100%;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.menu-catalog-flexed{
+  width:90%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    width: 25%;
+    padding: 10px;
+}
+
+.menu-item-image{
+  width:100%;
+  display: flex;overflow: scroll;
+  max-height: 300px;
+}
+
+.menu-item-info{
+  text-align:left;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.menu-item-info h3{
+  text-align: center;
+}
+
+#distributors{
+  width: 100%;
+  height: 500px;
+  background-color:#fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+
+}
+
+.distributors-lists{
+  width: 75%;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+  #contact{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  #contact .email{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+
+  #contact .insta{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ #contact i {
+    color:yellow;
+    opacity: .5;
+    padding-left: 40px;
+  }
+
+  .disclaimer{
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+  }
+
+.disclaimer-text{
+  text-align: center;
+  width:60%;
+}
